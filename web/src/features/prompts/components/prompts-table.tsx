@@ -216,16 +216,16 @@ export function PromptTable() {
         );
       },
       enableHiding: true,
-    }),
-    columnHelper.display({
-      id: "actions",
-      header: "Actions",
-      size: 70,
-      cell: (row) => {
-        const name = row.row.original.name;
-        return <DeletePrompt promptName={name} />;
-      },
-    }),
+    })
+    // columnHelper.display({
+    //   id: "actions",
+    //   header: "Actions",
+    //   size: 70,
+    //   cell: (row) => {
+    //     const name = row.row.original.name;
+    //     return <DeletePrompt promptName={name} />;
+    //   },
+    // }),
   ] as LangfuseColumnDef<PromptTableRow>[];
 
   return (

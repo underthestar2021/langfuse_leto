@@ -117,7 +117,7 @@ const BreadcrumbComponent = ({
                 </Link>
               </DropdownMenuItem>
               <DropdownMenuSeparator />
-              <div className="max-h-36 overflow-y-auto">
+              <div className="max-h-50 overflow-y-auto">
                 {organizations ? (
                   organizations
                     .sort((a, b) => {
